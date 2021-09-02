@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shutter Up</title>
+
+    <script src="https://kit.fontawesome.com/99b92f35e0.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Zen+Tokyo+Zoo&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Our Journey</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("main").style.opacity = 0.5;
+            // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("main").style.opacity = 1;
+        }
+    </script>
+
+
+
+    <div id="main">
+
+        <div class="header">
+
+            <nav class="navbar" id="navbar">
+                <ul class="mynav">
+                    <li class="menu" id="bars" onclick="openNav()">
+                        <a class="account" href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
+
+                    <li class="icon">
+                        <a href="/1_MyWbsite.html">
+                            <i class="fas fa-camera"></i><div>Shutter Up</div>
+                        </a>
+                    </li>
+
+
+                    <li class="menu" id="account">
+                        <a class="account" href="/2_LoginPage.html">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="cover">
+                <img src="https://source.unsplash.com/random/1600x500/?ocean,nature,forest,food" alt="cover">
+
+                <div class="search-box">
+                    <input class="search-txt" type="text" placeholder="Type to Text">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="content">
+            <div class="container">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#n01">Nature</a></li>
+                    <li><a href="#f01">Flower</a></li>
+                    <li><a href="#b01">Buildings</a></li>
+                </ul>
+            </div>
+
+            <div class="blocks">
+                <h1>Collections</h1>
+                <div class="block01">
+                    <a href="/Images/page02.jpg"><img src="/Images/page02.jpg" style="width:100%"></a>
+                    <a href="/Images/temple07.jpg"><img src="/Images/temple07.jpg" style="width:100%"></a>
+                    <a href="/Images/trains01.jpg"><img src="/Images/trains01.jpg" style="width:100%"></a>
+                    <a href="/Images/flower03.jpg"><img src="/Images/flower03.jpg" style="width:100%"></a>
+                    <a href="/Images/flower04.jpg"><img src="/Images/flower04.jpg" style="width:100%"></a>
+                    <a href="/Images/plants09.jpg"><img src="/Images/plants09.jpg" style="width:100%"></a>
+                </div>
+                <div class="block01">
+                    <a href="/Images/rajtemple05.jpeg"><img src="/Images/rajtemple05.jpeg" style="width:100%"></a>
+                    <a href="/Images/plant02.jpg"><img src="/Images/plant02.jpg" style="width:100%"></a>
+                    <a id="b01" href="/Images/temple06.jpg"><img src="/Images/temple06.jpg" style="width:100%"></a>
+                    <a href="/Images/town01.jpg"><img src="/Images/town01.jpg" style="width:100%"></a>
+                    <a href="/Images/villa2.jpg"><img src="/Images/villa2.jpg" style="width:100%"></a>
+                    <a id="f01" href="/Images/flower20.jpg"><img src="/Images/flower20.jpg" style="width:100%"></a>
+                    <a href="/Images/effiltower.jpg"><img src="/Images/effiltower.jpg" style="width:100%"></a>
+                </div>
+                <div class="block01">
+                    <a href="/Images/flower16.jpg"><img src="/Images/flower16.jpg" style="width:100%"></a>
+                    <a href="/Images/plants09.jpg"><img src="/Images/plants09.jpg" style="width:100%"></a>
+                    <a href="/Images/flower13.jpg"><img src="/Images/flower13.jpg" style="width:100%"></a>
+                    <a id="n01" href="/Images/nature05.jpg"><img src="/Images/nature05.jpg" style="width:100%"></a>
+                    <a href="/Images/flower15.jpg"><img src="/Images/flower15.jpg" style="width:100%"></a>
+                    <a href="/Images/flower16.jpg"><img src="/Images/flower16.jpg" style="width:100%"></a>
+                    <a href="/Images/rajtemple01.jpeg"><img src="/Images/rajtemple01.jpeg" style="width:100%"></a>
+                </div>
+                <div class="block01">
+                    <a href="/Images/page02.jpg"><img src="/Images/page02.jpg" style="width:100%"></a>
+                    <a href="/Images/temple07.jpg"><img src="/Images/temple07.jpg" style="width:100%"></a>
+                    <a href="/Images/trains01.jpg"><img src="/Images/trains01.jpg" style="width:100%"></a>
+                    <a href="/Images/flower03.jpg"><img src="/Images/flower03.jpg" style="width:100%"></a>
+                    <a href="/Images/flower04.jpg"><img src="/Images/flower04.jpg" style="width:100%"></a>
+                    <a href="/Images/plants09.jpg"><img src="/Images/plants09.jpg" style="width:100%"></a>
+                </div>
+            </div>
+
+            <div class="container2">
+                <h1 id="myid1"></h1>
+            </div>
+            <script>
+                let a;
+                let myDate;
+                let myTime;
+                const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                setInterval(() => {
+                    d = new Date()
+                    myDate = d.toLocaleDateString(undefined, options)
+                    myTime = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+                    document.getElementById("myid1").innerHTML = "Current Time is: " + myTime + "<br>On " + myDate
+                }, 1000);
+            </script>
+
+        </div>
+
+        <div class="foot" id="foot">
+            <nav>
+                <a href="#"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://www.instagram.com/mithilanchal_vibes/?hl=en"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-snapchat"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </nav><br>
+            <p>© 2021 Shutter Up. The Shutter Up design is a trademark of Shutter Up. Owner of this website is Saket
+                Subham and Ritik Raj.<br>Browse millions of high-quality stock photos, illustrations, and videos.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
