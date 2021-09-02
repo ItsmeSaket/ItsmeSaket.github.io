@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp - Shutter Up</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/99b92f35e0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="LogSignpage.css">
+</head>
+
+<body>
+    <div class="contain1">
+        <i class="fas fa-camera"></i>
+        <h1 class="header">Shutter Up</h1>
+
+        <div class="info">
+            SignUp to get access to our Exciting features. <br><br>
+            <ul>
+                <li>View full size Image</li>
+                <li>Download Images</li>
+                <li>Save to liked Image</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contain2">
+        <h1>Register</h1>
+
+        <form action="/2_LoginPage.html" autocomplete="off" method="POST">
+            <div class="userbox">
+                <label for="name"><i class="fas fa-user"></i></label>
+                <input id="name" class="usertxt" type="text" placeholder="Enter Full Name" required>
+            </div>
+
+            <div class="userbox">
+                <label for="addr"><i class="fas fa-user"></i></label>
+                <input id="addr" class="usertxt" type="email" placeholder="Enter Email Address" required>
+            </div>
+
+            <div class="dobox">
+                <label for="dob"><i class="far fa-calendar-alt"></i></label>
+                <input id="dob" class="usertxt" type="date" min="1950-01-01" max="2010-01-01" required>
+            </div>
+
+            <div class="pwdbox">
+                <label for="pwd1"><i class="fas fa-key"></i></label>
+                <input id="pwd1" class="pwdtxt" type="password" minlength="6" placeholder="Create Strong Password" required>
+            </div>
+
+            <div class="checkbox">
+                <input id="cbox" type="checkbox" required>
+                <label for="cbox">I agreed to the terms and conditions.</label>
+            </div>
+
+            <div class="btnbox">
+                <input type="submit" name="submit" value="Create Account" id="submit">
+            </div>
+        </form>
+
+        <br><br>
+        <hr>
+        <br>
+
+        <div class="newuser">
+            <h2>Already Registered</h2>
+            <a href="/2_LoginPage.html">LogIn</a>
+        </div>
+
+        <br><br>
+
+
+    </div>
+</body>
+
+</html>
