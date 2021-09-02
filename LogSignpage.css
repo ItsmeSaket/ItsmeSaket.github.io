@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url('/Images/webb.png');
+    background: url('webb.png');
     background-size: repeat;        
 }
 div.contain1, div.contain2{
